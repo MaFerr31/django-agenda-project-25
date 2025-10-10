@@ -7,9 +7,9 @@ class ContactForm(forms.ModelForm):
         widget=forms.TextInput(
             attrs={
                 'class': 'a b',
-                'placeholder': 'Digite aqui'
+                'placeholder': 'Digite aqui',
             }
-        )
+        ),
 
         label='Primeiro Nome',
         help_text='Texto de ajuda ao usuário',
